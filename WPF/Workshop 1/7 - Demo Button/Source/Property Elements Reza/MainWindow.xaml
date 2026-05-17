@@ -1,0 +1,20 @@
+﻿<Window x:Class="Property_Elements_Reza.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <Button x:Name="Button" Content="Stop" Height="36" Width="75" Margin="223,60,219,190" />
+
+        <Button x:Name="Button2" Height="25" Width="75">
+            <Button.Content>
+                <Rectangle Height="10" Width="10" Fill="Black" />
+            </Button.Content>
+        </Button>
+        
+    </Grid>
+</Window>
