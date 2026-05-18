@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # Meaning of `*` in WPF `Grid`
 
 In WPF `Grid`, the `*` means **star sizing**.
