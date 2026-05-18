@@ -1,4 +1,7 @@
+![alt text](image.png)
+
 # Table of Contents
+
 
 1. [WPF Panels Overview](#wpf-panels-overview)
 2. [What Is a Panel?](#what-is-a-panel)
