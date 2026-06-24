@@ -1,0 +1,22 @@
+﻿<Window x:Class="CheckBox_Reza.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckBox_Reza"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <CheckBox x:Name="CbChoc" Content="Extra chocolate" HorizontalAlignment="Left" 
+                  Margin="145,123,0,0" VerticalAlignment="Top"
+                  Checked="choc_Checked" Unchecked="choc_Unchecked"/>
+
+        <CheckBox x:Name="CbSugar" Content="No sugar" HorizontalAlignment="Left" 
+                  Margin="145,155,0,0" VerticalAlignment="Top" 
+                  Checked="sugar_Checked" Unchecked="sugar_Unchecked" />
+
+        <Label x:Name="Label1" HorizontalAlignment="Left" Margin="145,217,0,0" VerticalAlignment="Top" />
+        <Label x:Name="Label2" HorizontalAlignment="Left" Margin="145,258,0,0" VerticalAlignment="Top" />
+
+    </Grid>
+</Window>

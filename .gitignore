@@ -427,3 +427,105 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+.idea/
+
+# ===============================
+# WPF / .NET / Visual Studio
+# .gitignore
+# ===============================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+
+# Uncomment if you do NOT want to commit package lock files
+# packages.lock.json
+
+# MSBuild
+*.binlog
+*.csproj.FileListAbsolute.txt
+
+# Generated WPF files
+*.g.cs
+*.g.i.cs
+*.baml
+
+# Test results
+[Tt]est[Rr]esult*/
+[Tt]est[Rr]esults/
+coverage/
+coverage.xml
+*.coverage
+*.coveragexml
+
+# Publish output
+[Pp]ublish/
+*.publishproj
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Local databases - optional
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ClickOnce / deployment generated files
+*.application
+*.manifest
+*.deploy
+
+# Installer outputs
+*.msi
+*.exe
+
+# User secrets / local environment files
+secrets.json
+.env
+.env.*

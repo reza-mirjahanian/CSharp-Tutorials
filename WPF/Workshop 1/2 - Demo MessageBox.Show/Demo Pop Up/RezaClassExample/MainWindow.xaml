@@ -1,0 +1,23 @@
+﻿<Window x:Class="RezaClassExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+        xmlns:rezaClassExample="clr-namespace:RezaClassExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListBox>
+            <rezaClassExample:Item FirstData="Reza" LastData="Mir" />
+            <rezaClassExample:Item FirstData="May" LastData="2026" />
+
+            <Button Click="Btn_Clicked" Width="110" Height="35" Content="Click Me!" />
+
+
+
+        </ListBox>
+        
+        
+    </Grid>
+</Window>
