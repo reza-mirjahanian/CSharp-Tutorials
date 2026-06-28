@@ -28,7 +28,6 @@ Based on current .NET community research and architectural discussions, here are
 
 ## Chapter 2 — Core Concepts
 
-Let's follow our core teaching method to deeply understand the Mediator.
 
 ### 1. The Problem
 Imagine an e-commerce `CheckoutController`. To process an order, it must:
